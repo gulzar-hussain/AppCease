@@ -9,7 +9,7 @@ Display the current time in real-time.
 ## How to Use
 
 Clone this repository to your local machine:
-git clone https://github.com/yourusername/appcease.git
+git clone https://github.com/gulzar-hussain/AppCease.git
 ### Navigate to the project directory:
 cd appcease
 
