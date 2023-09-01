@@ -14,7 +14,6 @@ AppCease is a Python-based process manager application that allows users to view
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
