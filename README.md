@@ -1,38 +1,47 @@
-# AppCease
-AppCease is a Python application designed to provide users with control over running processes on their system. It offers a simple and intuitive way to monitor and manage processes, schedule the termination of specific processes, and keep track of the current time.
+# AppCease - Process Manager Application
 
-# Features
-List active processes on your system.
-Schedule the termination of a specific process at a user-defined time.
-Display the current time in real-time.
+AppCease is a Python-based process manager application that allows users to view and manage running processes on their system. It provides the following features:
 
-## How to Use
+- List of user applications with real-time updates.
+- Autocomplete search to find and highlight specific programs quickly.
+- Select and schedule the termination of multiple programs at once.
+- Display a real-time clock.
+- User-friendly graphical interface using Tkinter.
+- Cross-platform support for Windows and Linux.
 
-Clone this repository to your local machine:
-git clone https://github.com/gulzar-hussain/AppCease.git
-### Navigate to the project directory:
-cd appcease
+## Table of Contents
 
-### Install the required dependencies using pip:
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-pip install -r requirements.txt
+## Installation
 
-### Run the application:
-python appcease.py
+1. Clone the repository to your local machine:
 
-The application will launch, displaying a list of active processes on your system. You can update the list manually using the "Update List" button.
 
-To schedule the termination of a process:
+2. Navigate to the project directory:
 
-Select a process from the list.
-Enter a schedule time in the format "HH:MM" in the provided entry field.
-Click the "Schedule Stop" button to set the termination time for the selected process.
-The application will also display the current time in the "HH:MM:SS" format, updating every second.
 
-At the scheduled time, the application will automatically terminate the selected process.
+3. Install the required dependencies:
 
-# Compatibility
-AppCease is compatible with both Windows and Linux operating systems.
 
-# Contribution
-Contributions are welcome! If you have suggestions, bug reports, or would like to contribute code, feel free to open an issue or submit a pull request.
+## Usage
+
+1. Run the application:
+
+
+2. The application will launch, displaying a list of running processes.
+
+3. You can use the following features:
+- Search for programs using the autocomplete search box.
+- Select multiple programs from the list.
+- Enter a schedule time (HH:MM) and click the "Schedule Selected" button to terminate selected programs at a specified time.
+- Click the "Update List" button to manually refresh the list of running processes.
+- The real-time clock at the bottom of the window shows the current time.
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests to help improve this project.
+
